@@ -2,7 +2,7 @@
 def helloworld(k)
    
   if k == 16
-    return k
+    k
   end
  until k == 16 do
    if k.even?
@@ -13,7 +13,7 @@ def helloworld(k)
       p k
     end
  end
-return k
+  k
 end
 
 
